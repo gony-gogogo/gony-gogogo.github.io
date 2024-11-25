@@ -1,0 +1,137 @@
+div{
+    box-sizing: border-box;  
+    
+}
+body{
+    margin:0px;
+}
+html{
+    line-height: 1.15;
+}
+
+.main-background {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/*    filter: brightness(70%);*/
+/*    background-attachment: fixed;*/
+    padding: 1px;
+    position: relative;
+        
+}
+
+.main-title {
+    color: white;
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.secon-title {
+    color: orange;
+    font-size: 80px;
+    text-align:center;
+    
+}
+
+.secon-title-list {
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+    
+}
+
+.button {
+    
+}
+
+.main-button {
+    padding: 15px;
+    font-size: 60px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 310px;
+/*    z-index: 5;*/
+
+}
+
+.main-content {
+    color:moccasin;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.fixed-button {
+    color: red;
+    background-color: none;
+    font-size: 55px;
+    border: none;
+    border-radius: 10px;
+    position: fixed;
+    right: 100px;
+    top: 20px;
+    font-weight: bold;
+    
+}
+
+.main-buetton {
+    
+}
+
+.main-buetton {
+    
+}
+
+.main-buetton {
+    
+}
+
+.main-buetton {
+    
+}
+
+.secon-box {
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: 200px;
+    position: relative;
+    top: -140px;
+/*    z-index: 1;*/
+    box-sizing: border-box;
+    
+}
+
+.second-title {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+.second-content {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    
+    
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+}

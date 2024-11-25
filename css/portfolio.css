@@ -1,0 +1,151 @@
+
+.bg {
+    width: 100%;
+    height:auto;
+    max-height: 2000px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.first {
+    width:100%;
+    height: 400px;
+    background-color: #f7f9fc;
+    display: flex;
+ }
+
+.first-content {
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+    color: white;
+}
+
+.second {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    }
+
+.icon {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color:skyblue;
+    position: relative;
+    box-sizing: border-box
+}
+
+.icon h5, .icon h3{
+    margin: 0;
+    padding: 0;
+}
+
+
+.icon-boxs {
+    width:100%;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+.icon-boxs div{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+.icon-boxs-wrapper {
+    background-color: white;
+    border-radius: 80px;
+    
+}
+
+
+
+.icon-boxs-contents {
+    width: 100%;
+    font-size: 16px;
+}
+
+.picture4 {
+    width: auto;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;  
+}
+.picture4 h6, .picture4 h3{
+    margin: 0;
+    padding: 0;
+}
+.picture4 h6{
+    margin-top: 50px;
+}
+
+.picture4-realpic {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.picture4-realpic div{
+    width: 50%;
+    float: left;
+}
+.last {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.last-wrap {
+    background-color: darkblue;
+    margin: auto;
+    padding: 0;
+    border-radius: 50%;    
+}
+
+
+@media screen and (max-width: 768px){
+    .first div{
+        width: 100%;
+        margin:auto;
+    }
+    .second div{
+        width: 100%;
+        margin:auto;
+        
+    }
+    .icon div{
+        width: 100%;
+        margin:auto;
+    }
+    .picture4 div{
+        width: 100%;
+        margin:auto;
+    }
+    .last div{
+        width: 100%;
+        margin:auto;
+    }
+}
